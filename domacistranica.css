@@ -1,0 +1,149 @@
+ul {
+  display: inline-block;
+  border: solid 1px black;
+  width: 1515px;
+  height: 70px;
+  margin: 0px;
+  background-color: black;
+  padding-left: 20px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  height: 40px;
+  color: wheat;
+  margin: 20px;
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: wheat;
+}
+body {
+  margin: 0px;
+}
+.div1 {
+  border: 0px black solid;
+  width: 1535px;
+  height: 400px;
+  background-color: cornflowerblue;
+  margin: 0px;
+}
+h1 {
+  font-style: bold;
+  display: inline;
+  font-size: 65px;
+  position: relative;
+  top: 50px;
+  left: 550px;
+}
+h2 {
+  font-style: italic;
+  position: relative;
+  top: 100px;
+  left: 250px;
+  display: inline-block;
+}
+button {
+  font-size: 30px;
+  background-color: gray;
+  display: inline-block;
+  position: relative;
+  top: 200px;
+  left: 70px;
+  border-radius: 10px;
+}
+.div2 {
+  border: 0px black solid;
+  width: 1535px;
+  height: 500px;
+  background-color: lightgrey;
+  margin: 0px;
+}
+h3 {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 60px;
+  position: relative;
+  left: 300px;
+}
+#prvi {
+  font-size: 20px;
+  margin-left: 300px;
+  margin-right: 500px;
+}
+#drugi {
+  margin-right: 500px;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+i {
+  font-size: 250px;
+  position: relative;
+  left: 1100px;
+  bottom: 300px;
+}
+.div3 {
+  border: 0px black solid;
+  width: 1535px;
+  height: 400px;
+  background-color: white;
+  margin: 0px;
+}
+h4 {
+  font-size: 50px;
+  display: inline-block;
+  position: relative;
+  left: 600px;
+}
+#treci {
+  font-size: 20px;
+  margin-left: 600px;
+  margin-right: 200px;
+  margin-top: 0px;
+}
+#cetvrti {
+  margin-right: 200px;
+  margin-left: 600px;
+  margin-top: 30px;
+}
+#druga {
+  font-size: 250px;
+  position: relative;
+  left: 250px;
+  bottom: 300px;
+}
+.div4 {
+  border: 0px black solid;
+  width: 1535px;
+  height: 150px;
+  background-color: cornflowerblue;
+  margin-top: 50px;
+}
+h5 {
+  font-size: 30px;
+  position: relative;
+  top: 60px;
+  left: 600px;
+  margin: 0px;
+  display: inline-block;
+}
+.div5 {
+  border: 0px black solid;
+  width: 1535px;
+  height: 150px;
+  background-color: black;
+  margin-top: 0px;
+}
+#peti {
+  color: white;
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  left: 700px;
+  font-size: 20px;
+}
