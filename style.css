@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0%;
 }
@@ -103,8 +106,9 @@ button{
   border-radius: 10px;
   width: 20%;
   position: relative;
-  left: 730px;
+  left: 750px;
   top: 100px;
+
 }  
 button:hover {
   background-color: rgb(156, 156, 156)
@@ -114,7 +118,9 @@ button:hover {
   transition: 1s all ease-in;
 }
 .div1{
-  margin-top: 100px;
+  margin:0px;
+  margin-top: 100px
+
 }
 
 #sec2{
@@ -155,4 +161,8 @@ h2{
 text-align: left;
 color: white;
 text-shadow: black 1.5px 1.5px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
