@@ -1,0 +1,21 @@
+.main {
+  height: 100px;
+  width: 100px;
+  background-color: darkgreen;
+  margin: 20px;
+  transition: ease 5s all;
+}
+.main:hover {
+  background-color: darkred;
+  transform: rotate(180deg);
+}
+.second {
+  height: 100px;
+  width: 100px;
+  margin: 50px;
+  background-color: darkturquoise;
+  transition: all ease 3s;
+}
+.second:hover {
+  transform: rotate(180deg);
+}

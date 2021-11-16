@@ -1,0 +1,39 @@
+h1 {
+  position: relative;
+  left: 500px;
+}
+p {
+  position: relative;
+  left: 350px;
+}
+.div1 {
+  display: inline-block;
+  position: relative;
+  left: 350px;
+}
+.div2 {
+  display: inline-block;
+  position: relative;
+  left: 400px;
+}
+.div3 {
+  margin: 25px;
+  position: relative;
+  left: 330px;
+}
+textarea {
+  display: block;
+  position: relative;
+  left: 50px;
+}
+#message {
+  position: relative;
+  left: 50px;
+}
+button {
+  position: relative;
+  left: 570px;
+}
+input {
+  background-color: lightgray;
+}

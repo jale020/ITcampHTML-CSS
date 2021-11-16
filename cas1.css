@@ -1,0 +1,60 @@
+.prvi {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation: mojaanimacija;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 350px;
+  top: 300px;
+}
+@keyframes mojaanimacija {
+  from {
+    background-color: seagreen;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+@keyframes mojaanimacija {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(100px, 100px);
+  }
+}
+@keyframes mojaanimacija {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: chartreuse;
+  }
+  100% {
+    background-color: cyan;
+  }
+}
+@keyframes mojaanimacija {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    top: 0px;
+    left: 200px;
+  }
+  50% {
+    top: 200px;
+    left: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
