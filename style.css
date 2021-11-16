@@ -1,0 +1,158 @@
+body{
+  margin: 0%;
+}
+header{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  top: 0px;
+  left: 0px;
+}
+ul{
+display: inline-block;
+margin: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+
+}
+#sec1{
+  width: 100%;
+  height: 100vh;
+    margin: 0px;
+    padding: 0%;
+    background-image: url(desu8b6-016c6571-ca2a-404a-8e1c-243817422f18.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    scroll-behavior: smooth;
+    background-position: center;
+  background-size: 100% 100%;
+}
+li{
+    list-style: none;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    position: fixed;
+    bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+ 
+}
+.desno{
+    margin-left: 200px;
+    position: relative;
+    left: 900px;
+    margin-top: 50px;
+    display: inline-block;
+    
+}
+.naslov{
+  display: inline-block;
+    font-size: 60px;
+    font-family: 'Libre Barcode 39 Text', cursive;
+   position:absolute;
+   bottom: 30px;
+    
+
+}
+h1{
+  text-align: center;
+  margin: auto;
+}
+p{
+  text-align: center;
+
+}
+#prvi{
+  font-family:'Bebas Neue', cursive;
+  font-size: 100px;
+  color: white;
+  position: relative;
+  top: 150px;
+  left: 600px;
+  display: inline-block;
+text-shadow: 1.7px 1.7px  rgb(0, 0, 0);
+}
+#paragraf1{
+  font-size: 50px;
+  font-family:'Bebas Neue', cursive ;
+  position: relative;
+  color: white;
+  left: 300px;
+  top: 100px;
+  display: inline-block;
+  text-shadow:1.7px 1.7px  rgb(0, 0, 0) ;
+}
+button{
+  font-size: 25px;
+  font-family:'Bebas Neue', cursive ;
+  display: block;
+  margin-top: auto;
+  margin-right: 0;
+  padding: 10px 15px 10px 15px;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 20%;
+  position: relative;
+  left: 730px;
+  top: 100px;
+}  
+button:hover {
+  background-color: rgb(156, 156, 156)
+}
+.but1:hover{
+  background-color: rgb(116, 116, 116);
+  transition: 1s all ease-in;
+}
+.div1{
+  margin-top: 100px;
+}
+
+#sec2{
+  width: 100%;
+  height: 100vh;
+  background-image: url(city_concept_by_m_wojtala_d7eolvn-fullview.jpg);
+    margin: 0px;
+    padding: 0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+    scroll-behavior: smooth;
+    background-position: center;
+  background-size: 100% 100%;
+}
+.div2{
+  margin:0px
+}
+h2{
+  display: inline-block;
+  font-size: 60px;
+  color: white;
+  font-family:'Bebas Neue', cursive ;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  text-decoration: underline;
+  margin-bottom: 100px;
+  text-shadow: black 1.5px 1.5px ;
+}
+#paragraf2{
+  display: inline-block;
+  font-size: 40px;
+  font-family:'Bebas Neue', cursive ;
+  margin-right: 300px;
+  padding-left: 350px;
+  position: relative;
+  right: 250px;
+text-align: left;
+color: white;
+text-shadow: black 1.5px 1.5px;
+}
