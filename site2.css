@@ -9,6 +9,8 @@ html{
     
 }
 
+/* HEADER */
+
 header{
     width: 100%;
     height: 15vh;
@@ -95,6 +97,9 @@ margin-right: 300px;
     margin-top: 15px;
     
 }
+
+/* HOME */
+
 #Home {
     width: 100%;
     height: 100vh;
@@ -159,6 +164,8 @@ margin-right: 300px;
     color: white;
     transition-duration: 0.5s;
 }
+
+/* ABOUT */
 
 #About h1 {
     display: flex;
@@ -262,21 +269,6 @@ margin-right: 300px;
     flex-direction: row;
 
     
-}
-#top2{
-    display: flex;
-    flex-direction: row;
-    width: 60%;
-    height: 15vh;
-    padding: 15px;
-}
-
-#bottom2{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    height: 15vh;
-    padding: 15px;
 }
 
 #bottom i{
