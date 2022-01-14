@@ -113,3 +113,67 @@
 // for (i = 7; i > 0; i--) {
 //   console.log(i);
 // }
+
+// pocetna = parseInt(prompt("Unesite pocetni broj"));
+// krajnja = parseInt(prompt("Unesite krajnju vrednost"));
+// for (i = pocetna; i < krajnja; i++) {
+//   console.log(i ** 3);
+// }
+
+// pocetna = parseInt(prompt("Unesite pocetni broj"));
+// krajnja = parseInt(prompt("Unesite krajnju vrednost"));
+
+// for (i = pocetna; (i = krajnja); i++) {
+//   delioci = 0;
+//   for (j = 1; j <= 1; j++) {
+//     delioci++;
+//   }
+// }
+// if (delioci === 2) {
+//   console.log(i);
+//   {
+//   }
+// }
+
+// prvi = parseInt(prompt("Unesite prvi broj"));
+// drugi = parseInt(prompt("Unesite drugi vrednost"));
+
+// for (i = prvi; i < 9000; i++) {
+//   if (i % prvi === 0 && i % drugi === 0) {
+//     console.log(i);
+//     break;
+//   }
+// }
+
+// kolicina=prompt("Unesi kolicinu");
+// sum="";
+// for(i=0;i<kolicina;i++){
+//     unos=prompt("Unesi slova")
+
+// a = 6;
+// sumFakt = 0;
+// for (i = 1; i <= a; i++) {
+//   fakt = 1;
+//   for (j = 1; j <= i; j++) {
+//     fakt = fakt * j;
+//   }
+//   sumFakt += fakt;
+// }
+// console.log(sumFakt);
+
+// var1 = 5;
+// fakt = 1;
+
+// for (i = 1; i <= var1; i++) {
+//   fakt = fakt * i;
+//   console.log(fakt);
+// }
+// console.log(fakt);
+
+// for (i = 1; i <= 10; i++) {
+//   red = "";
+//   for (j = 1; j <= 10; j++) {
+//     red += `${j * i}\t`;
+//   }
+//   console.log(red);
+// }
