@@ -177,3 +177,40 @@
 //   }
 //   console.log(red);
 // }
+// unos = prompt("Unesi rec");
+
+// while (unos.length < 5) {
+//   unos = prompt("Greska pokusajte ponovo");
+// }
+
+// unos = parseInt(prompt("Unesite broj ili END"));
+
+// while (unos !== "END") {
+//   unos = prompt("Unesite broj ili END");
+// }
+
+// unos = parseInt(prompt("Unesite broj"));
+// sum = 0;
+// while (unos >= 0) {
+//   sum += unos;
+//   unos = parseInt(prompt("Unesite negativan broj"));
+// }
+// console.log(sum);
+
+// unos = prompt("Unesite ime");
+
+// while (unos !== "END") {
+//   console.log(unos);
+//   unos = prompt("Unesi opet");
+// }
+// console.log("KRAJ");
+
+// unos = parseInt(prompt("Unesite ocenu"));
+// sum = 0;
+// brojac = 0;
+// while (unos >= 1 && unos <= 5) {
+//   sum += unos;
+//   brojac++;
+//   unos = parseInt(prompt("Unesite ocenu"));
+// }
+// console.log(sum / brojac);
