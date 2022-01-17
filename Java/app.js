@@ -214,3 +214,69 @@
 //   unos = parseInt(prompt("Unesite ocenu"));
 // }
 // console.log(sum / brojac);
+
+// broj = Math.round(Math.random() * 10);
+// unos = parseInt(prompt("Unesi broj"));
+// while (unos !== broj)
+//   if (unos > broj) {
+//     unos = parseInt(prompt("Broj je veci"));
+//     unos = parseInt(prompt("Broj je manji"));
+//   }
+// console.log("Pogodili ste broj");
+
+// {
+// }
+
+// operator = prompt("Unesi operaciju");
+// while (operacija !== "STOP") {
+//   prviBroj = parseInt(prompt("Unesite prvi broj"));
+//   drugiBroj = parseInt(prompt("Unesite drugi broj"));
+//   if (operator === "+") {
+//     console.log(prviBroj + drugiBroj);
+//   } else if (operator === "-") {
+//     console.log(prviBroj - drugiBroj);
+//   } else if (operator === "*") {
+//     console.log(prviBroj * drugiBroj);
+//   } else if (operator === "/") {
+//     console.log(prviBroj / drugiBroj);
+//   }
+//   operator = prompt("Unesi operaciju");
+// }
+
+// tezina = parseInt(prompt("Unesite tezinu"));
+// visina = parseInt(prompt("Unesite visinu"));
+// bmi = tezina / visina ** 2;
+// if ((bmi = 18.5)) {
+//   console.log("Underweight");
+// } else if (bmi < 25.0) {
+//   console.log("Normal");
+// } else if (bmi < 30) console.log("Overweight");
+// else if (bmi > 30) {
+//   console.log("Obese");
+// }
+
+// unos = parseInt(prompt("Unesite broj"));
+// brojac = 1;
+// while (brojac <= unos) {
+//   if (brojac % 2 !== 0) console.log(brojac);
+// }
+// brojac++;
+
+// unos = prompt("Unesite broj");
+// while (unos !== "STOP") {
+//   if (unos == 0) {
+//     console.log("ZERO");
+//   } else if (unos > 0) {
+//     console.log("POSITIVE");
+//   } else if (unos < 0) {
+//     console.log("NEGATIVE");
+//   }
+// }
+
+// pocetna = prompt("Unesite pocetnu vrednost");
+// kranjnja = prompt("Unesite krajnju vrednost");
+// for (i = pocetna; i <= kranjnja; i++) {
+//   if (i % 4 === 0) {
+//     console.log(i);
+//   }
+// }
