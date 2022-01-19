@@ -280,3 +280,59 @@
 //     console.log(i);
 //   }
 // }
+
+// unos = prompt("Unesite string");
+// novi = "";
+// for (i = 0; i < unos.length - 1; i++) {
+//   if (i === 0) {
+//     novi += unos[0].toUpperCase();
+//   }
+//   if (unos[i] === " ") {
+//     novi += unos[i + 1].toUpperCase();
+//   } else {
+//     novi += unos[i + 1];
+//   }
+// }
+// console.log(novi);
+
+// unos = parseInt(prompt("Unesi minute"));
+// sati = Math.floor(unos / 60);
+// minute = unos % 60;
+// console.log("Sati", sati);
+// console.log("Minute", minute);
+
+// arr = [];
+// kolicina = parseInt(prompt("Unesi kolicinu"));
+// for (i = 0; i < kolicina; i++) {
+//   el = prompt("Unesite element");
+//   arr[i] = el;
+// }
+// console.log(arr);
+// for (i = arr.length - 1; i >= 0; i--) {
+//   console.log(arr[i]);
+// }
+
+// arr = [];
+// kolicina = parseInt(prompt("Unesi kolicinu"));
+// for (i = 0; i < kolicina; i++) {
+//   el = prompt("Unesite element");
+//   arr[i] = el;
+// }
+// console.log(arr);
+// for (i = arr.length - 1; i >= 0; i--) {
+//     console.log(arr[i]);
+
+// sum = 0;
+// for (i = 0; i < arr.length; i++) {
+//   sum += arr[i];
+// }
+// console.log(sum);
+
+// arr = [2, 12, 1, 7, 19, 74, 23, 4, 3];
+// max = arr[0];
+// for (i = 0; i < arr.length; i++) {
+//   if (max < arr[i]) {
+//     max = arr[i];
+//   }
+// }
+// console.log(max);
