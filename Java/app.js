@@ -336,3 +336,63 @@
 //   }
 // }
 // console.log(max);
+
+// food1 = ["Noodle", "Pasta", "Ice Cream"];
+// food2 = ["Pizza", "Ice Cream", "Fries"];
+// sameFood = [];
+// for (i = 0; i < food1.length; i++) {
+//   for (j = 0; j < food2.length; j++) {
+//     if (food1[i] === food2[j]) sameFood.push[i];
+//   }
+// }
+
+// console.log(sameFood);
+
+// data = [1, 2, 3, 2, 1];
+// newData = [];
+
+// for (el of data) {
+//   if (el !== 2 && el !== 1) newData.push(el);
+// }
+// console.log(newData);
+
+// kolicina = parseInt(prompt("Koliko zelite elemenata?"));
+// elements=[]
+// for(i=0;i<kolicina;i++){
+//     el=prompt("Unesi element")
+//     elements.push(el)
+// }
+// console.log(elements);
+
+// data = [3, 21, 32, 36, 37, 56, 8, 12, 16, 18, 20, 68, 69];
+// console.log(data);
+
+// unos = parseInt(prompt("Indeks kojeg broja zelite da nadjete?"));
+// for (i = 0; i < data.length; i++) {
+//   if (data[i] === unos) {
+//     console.log("Vas broj je na indeksu: ", i);
+//     break;
+//   }
+// }
+
+// arr1 = [3, 21, 32, 36, 37, 56];
+// arr2 = [3, 21, 32, 36, 37, 56];
+// tacnost = true;
+
+// if (arr1.length !== arr2.length) {
+//   console.log("Nisu isti");
+//   tacnost = false;
+// } else if (tacnost) {
+//   for (i = 0; i < arr1.length; i++) {
+//     if (arr1[i] !== arr2[i]) {
+//       tacnost = false;
+//       break;
+//     }
+//   }
+
+//   if (tacnost) {
+//     console.log("Isti su");
+//   } else {
+//     console.log("Nisu");
+//   }
+// }
