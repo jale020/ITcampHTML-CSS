@@ -396,3 +396,48 @@
 //     console.log("Nisu");
 //   }
 // }
+
+// a = [3, 6, 23, 9, 44, 14, 83, 22, 5, 1];
+// sum = 0;
+// for (i = 0; i < a.length; i++) {
+//   sum += a[i];
+// }
+// console.log(sum / a.length);
+
+// arr = [3, 6, 0, 23, 0, 9, 44, 144, 0, 83, 22, 5, 0, 1];
+// for (i = 0; i < arr.length; i++) {
+//   if (arr[i] === 0) {
+//     arr.splice(i, 1);
+//     arr.push(0);
+//   }
+// }
+// console.log(arr);
+
+// arr = [3, 6, 23, 9, 44, 14, 83, 22, 5, 1];
+// min = [0];
+// max = [0];
+// for (el of arr) {
+//   if (el > max) {
+//     max = el;
+//   } else if (min > el) min = el;
+// }
+// console.log("Razlika je:", max - min);
+
+// arr = [3, 6, 23, 9, 44, 14, 83, 22, 5, 1];
+// sadrzi = false;
+// for (el of arr) {
+//   if (el === 67 || el === 87) {
+//     sadrzi = true;
+//   }
+// }
+// console.log(sadrzi);
+
+// arr = [3, 6, 23, 9, 444, 14, 831, 22, 5, 1, 5555];
+// max = arr[0];
+// for (el of arr) {
+//   if (Math.abs(el) > Math.abs(max));
+//   max = el;
+// }
+// console.log(max);
+
+arr = [3, 6, 23, 9, 44, 14, 83, 22, 5, 1];
