@@ -440,4 +440,16 @@
 // }
 // console.log(max);
 
-arr = [3, 6, 23, 9, 44, 14, 83, 22, 5, 1];
+// arr = [3, 6, 23, 9, 44, 14, 83, 22, 5, 1];
+
+// function sum() {
+//   unos1 = parseInt(prompt("Unesite prvi broj"));
+//   unos2 = parseInt(prompt("Unesite drugi broj"));
+//   console.log(unos1 + unos2);
+// }
+// sum();
+
+// function sum(a, b) {
+//   console.log(a + b);
+// }
+// sum(3, 5);
