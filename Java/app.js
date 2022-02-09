@@ -453,3 +453,14 @@
 //   console.log(a + b);
 // }
 // sum(3, 5);
+
+function remove(string) {
+  a = "";
+  for (i = 0; i < string.length; i++) {
+    if (string[i] !== "!") {
+      a += string[i];
+    }
+  }
+  a += "!";
+  return a;
+}
