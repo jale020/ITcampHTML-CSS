@@ -464,3 +464,51 @@
 //   a += "!";
 //   return a;
 // }
+
+// var library = [
+//   {
+//     author: "Bill Gates",
+//     title: "The road ahead",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Steve Jobs",
+//     title: "Walter Isacson",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Suzanne Colins",
+//     title: "Mockingjay:The final book of Hunger games",
+//     readingStatus: false,
+//   },
+// ];
+
+// for (i = 0; i < library.length; i++) {
+//   console.log(library[i].author, library[i].readingStatus);
+// }
+
+// function creatingUser() {
+//   ime = prompt("Unesite ime");
+//   prezime = prompt("Unesite prezime");
+//   godine = parseInt(prompt("Unesite godine"));
+//   visina = parseInt(prompt("Unesite visinu"));
+
+//   return {
+//     ime,
+//     prezime,
+//     godine,
+//     visina,
+//   };
+// }
+// console.log(creatingUser());
+
+// const car = {
+//   name: "Audi",
+//   model: "A7",
+// };
+
+// const keys = Object.keys(car);
+
+// for (let key of keys) {
+//   console.log(car[key]);
+// }
