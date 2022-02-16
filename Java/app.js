@@ -512,3 +512,12 @@
 // for (let key of keys) {
 //   console.log(car[key]);
 // }
+
+function distinct(a) {
+  arr = [];
+  for (i = 0; i < a.length; i++)
+    if (arr.indexOf(a[i]) === -1) {
+      arr.push(a[i]);
+    }
+  return arr;
+}
