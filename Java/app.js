@@ -513,11 +513,59 @@
 //   console.log(car[key]);
 // }
 
-function distinct(a) {
-  arr = [];
-  for (i = 0; i < a.length; i++)
-    if (arr.indexOf(a[i]) === -1) {
-      arr.push(a[i]);
-    }
-  return arr;
-}
+// function distinct(a) {
+//   arr = [];
+//   for (i = 0; i < a.length; i++)
+//     if (arr.indexOf(a[i]) === -1) {
+//       arr.push(a[i]);
+//     }
+//   return arr;
+// }
+
+// const students = [
+//   {
+//     name: "Aldin",
+//     height: 187,
+//     gender: "male",
+//     age: 27,
+//   },
+//   {
+//     name: "Daca",
+//     height: 187,
+//     gender: "male",
+//     age: 13,
+//   },
+//   {
+//     name: "Dado",
+//     height: 187,
+//     gender: "male",
+//     age: 14,
+//   },
+//   {
+//     name: "Medzid",
+//     height: 187,
+//     gender: "male",
+//     age: 3,
+//   },
+//   {
+//     name: "Vahid",
+//     height: 187,
+//     gender: "male",
+//     age: 31,
+//   },
+//   {
+//     name: "Jasmin",
+//     height: 187,
+//     gender: "male",
+//     age: 28,
+//   },
+// ];
+// newarr = [];
+// function filterByAge(arr) {
+//   for (el of arr) {
+//     if (el.age > 18);
+//     newarr.push(el);
+//   }
+//   return newarr;
+// }
+// console.log(filterByAge(students));
