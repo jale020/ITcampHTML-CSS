@@ -569,3 +569,30 @@
 //   return newarr;
 // }
 // console.log(filterByAge(students));
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52];
+
+// numbers.forEach((el) => {
+//   if (el % 2 === 0) console.log(el);
+// });
+
+// arr = [];
+// numbers.forEach((el) => {
+//   if (el > 20) {
+//     return arr.push(el);
+//   }
+// });
+// console.log(arr);
+
+// str = "the quick brown fox";
+
+// str = str.split("");
+// newstr = "";
+// str.forEach(el, (i) => {
+//   if (i % 2 === 0) {
+//     newstr += el.toLowerCase();
+//   } else {
+//     newstr += el.toUpperCase();
+//   }
+// });
+// console.log(newstr);
