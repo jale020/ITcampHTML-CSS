@@ -596,3 +596,30 @@
 //   }
 // });
 // console.log(newstr);
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52];
+
+// function fiveCharactersOrFewerOnly(arr) {
+//   return arr.filter((el) => el.length <= 5);
+// }
+// console.log(
+//   fiveCharactersOrFewerOnly(["dog", "wolf", "by", "family", "eaten", "camping"])
+// );
+
+// function peopleWhoBelongToIlluminati(arr) {
+//   return arr.filter((el) => el.member);
+// }
+// console.log(
+//   peopleWhoBelongToIlluminati([
+//     { name: "Angelina Jolie", member: true },
+//     { name: "Eric Jones", member: false },
+//     { name: "Paris Hilton", member: true },
+//     { name: "Kanye West", member: false },
+//     { name: "Bob Ziroll", member: true },
+//   ])
+// );
+
+// numbers = [45, 4, 9, 16, 25];
+
+// const isAllEven = numbers.every((numbers) => numbers % 2 == 0);
+// console.log(isAllEven);
