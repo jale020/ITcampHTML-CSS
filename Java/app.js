@@ -623,3 +623,22 @@
 
 // const isAllEven = numbers.every((numbers) => numbers % 2 == 0);
 // console.log(isAllEven);
+
+// async function getData() {
+//   const response = await fetch("https://catfact.ninja/facts");
+//   const responseJson = await response.json();
+//   console.log(responseJson);
+// }
+// getData();
+
+// async function getUsers() {
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typecode.com/users");
+//     const responseJson = await response.json();
+//     const formatedUsers = responseJson.map((el) => el.name);
+//     console.log(formatedUsers);
+//   } catch (err) {
+//     console.log(err);
+//   }
+// }
+// getUsers();
