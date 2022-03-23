@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("desktop.png");
+}
+
+table {
+  width: 70%;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  border-radius: 1em;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+  background-color: rgb(255, 255, 255);
+  color: rgb(73, 73, 73);
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th:nth-child(even) {
+  text-align: center;
+}
+td:nth-child(even) {
+  text-align: center;
+}
+
+td:nth-child(5) {
+  text-align: right;
+}
+th:nth-child(5) {
+  text-align: right;
+}
