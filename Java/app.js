@@ -642,3 +642,8 @@
 //   }
 // }
 // getUsers();
+
+// el = document.querySelector("#prvi");
+// el.style.backgroundColor = "blue";
+// el.style.color = "white";
+// el.style.fontSize = "50px";
