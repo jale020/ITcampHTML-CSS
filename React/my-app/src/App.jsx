@@ -2,6 +2,7 @@ import React from "react";
 import App from "./App";
 
 import { Route, Routes, Link } from "react-router-dom";
+import Navbar from "./Components/Navbar";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <h1>Welcome</h1>
         </Link>
         <Header />
+        <Navbar/>
       </div>
     </div>
   );

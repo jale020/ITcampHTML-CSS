@@ -12,3 +12,5 @@ export default function App() {
     </div>
   );
 }
+
+ReactDom.div(document.getElementById("root")).render 
